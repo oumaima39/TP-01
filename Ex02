@@ -1,7 +1,10 @@
 #include <stdio.h >
 int main () {
 int mat[10] [10]
-int i ,j , x;
+int i ,j , x,
+for(j=0;j<10;j++)
+  forfor(i=0;i<10;i++)
+     scanf("%d",& mat[i][j]);
 for(i=0;i<10;i++)
      for(j=0;j<10;j++)
            if(i=j)
